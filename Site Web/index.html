@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--Header-->
+  <section id="Header">
+    <div class="container">
+        <header class="d-flex justify-content-md-around pt-3 pb-1 BdM">
+        <ul class="nav nav-pills BdM">
+            <li class="nav-item mx-md-4 mx-1"><a href="#Hero" class="nav-link active" aria-current="page">Accueil</a></li>
+            <li class="nav-item mx-md-4 mx-1"><a href="#MdF" class="nav-link" style="color: aliceblue;">Musique  De  Film</a></li>
+            <li class="nav-item mx-md-4 mx-1"><a href="#SD" class="nav-link" style="color: aliceblue;">Sound Design</a></li>
+            <li class="nav-item mx-md-4 mx-1"><a href="#Bio" class="nav-link" style="color: aliceblue;">À propos</a></li>
+            <li class="nav-item mx-md-4 mx-1"><a href="#Contact" class="nav-link" style="color: aliceblue;">Contact</a></li>
+        </ul>
+        </header>
+      </div>
+  </section>
+  <hr style="color: aliceblue; width: 80%; margin:auto;">
+
+  <!--Accueil-->
+  <section id="Hero">
+    <div>
+      <div class="backvid">
+        <video autoplay muted loop id="myVideo">
+          <source src="assets/video/ShowReel 2024_2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="backimg">
+        <img src="assets/img/background.jpg" alt="fond d'écran neige">
+      </div>
+      <div class="video-overlay"></div>
+    </div>
+    
+      <div class="px-4 py-2 my-1 text-center">
+        <img class="Portrait py-5" src="assets/img/Photo portrait - Baptiste Leblanc.jpg" alt="Mon Portrait">
+        <h1 class=" fw-light">Baptiste Leblanc</h1>
+        <div class="col-12 mx-auto">
+          <p class="mb-4 pb-3";>Compositeur de Musique de Films</p>
+        </div>
+      </div>
+      
+    
+  </section>
+
+  <hr style="color: aliceblue; width: 100%; margin:auto;">
+
+  <!--Musique-->
+
+  <section id="MdF">
+    <div class="container">
+      <h2 class="text-lg-start text-center px-3">Musique De Films</h2>
+  
+      <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <!-- Indicateurs -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+  
+        <!-- Slides -->
+        <div class="carousel-inner">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100">
+              <a href="https://youtu.be/JvOGVdsMX8Q?feature=shared" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/Mission Mozaïque.png" alt="Mission Mozaïque" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://youtu.be/JvOGVdsMX8Q?feature=shared" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+              <h3 class="mb-4">Mission Mozaïque – 2024</h3>
+              </a>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100" >
+              <a href="https://www.youtube.com/watch?v=iTxb69dKVc4" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/Marmatuile.png" alt="Marmatuile" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://www.youtube.com/watch?v=iTxb69dKVc4" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+              <h3 class="mb-5">Marmatuile – 2022</h3>
+              </a>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100" >
+              <a href="https://www.youtube.com/watch?v=f6ecLQNVcJA&t" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/FarEast.png" alt="FarEast" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://www.youtube.com/watch?v=f6ecLQNVcJA&t" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                <h3 class="mb-4">FarEast – 2018</h3>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <!-- Contrôles -->
+         <div class="pt-3">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr style="color: aliceblue; width: 100%; margin:auto;">
+
+  <!--Sound Design-->
+
+  <section id="SD">
+    <div class="container">
+      <h2 class="text-lg-start text-center px-3">Sound Design</h2>
+  
+      <div id="myCarousel2" class="carousel slide mb-5" data-bs-ride="carousel">
+        <!-- Indicateurs -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+  
+        <!-- Slides -->
+        <div class="carousel-inner">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100">
+              <a href="https://youtu.be/DeiaTnlM06U?feature=shared" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/Cookie.png" alt="Cookie" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://youtu.be/DeiaTnlM06U?feature=shared" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+              <h3 class="mb-4">A Cookie's Adventure – 2022</h3>
+              </a>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100" >
+              <a href="https://youtu.be/UMNjafYIOJ4?feature=shared" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/Donjon.png" alt="Donjon" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://youtu.be/UMNjafYIOJ4?feature=shared" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+              <h3 class="mb-5">Donjon & Compagnie – 2020</h3>
+              </a>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item position-relative">
+            <svg class="bd-placeholder-img" width="100%" height="20em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 text-white text-center text-md-start px-3 position-absolute top-50 start-50 translate-middle w-100" >
+              <a href="https://youtu.be/Gd_cIWkpFyw?feature=shared" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/Oeil.png" alt="FarEast" class="img-fluid opacity-75" style="width: 22rem;">
+              </a>
+              <a href="https://youtu.be/Gd_cIWkpFyw?feature=shared" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                <h3 class="mb-4">Oeil pour Oeil – 2019</h3>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <!-- Contrôles -->
+         <div class="pt-3">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <hr style="color: aliceblue; width: 100%; margin:auto;">
+
+  <!-- Biographie -->
+  <Section id="Bio" style="background-color: rgb(0, 0, 0, 0.0);">
+
+    <div class="container">
+      <h2 class="text-lg-start text-center px-3">À propos</h2>
+      
+      <div>
+        <p class="px-3 pb-3"> "De l'animation aux jeux vidéos, en passant par le documentaire, la fiction ou la publicité, j'aime penser la musique d'un projet comme un tableau, une peinture : mélanger les couleurs et les textures sonores, les timbres et les nuances à la recherche de ce qui fera ressortir les émotions et les sensations qui amèneront le spectateur à vibrer avec ce qu'il voit." </p>
+      </div>
+    </div>
+  </Section>
+  
+  <hr style="color: aliceblue; width: 100%; margin: auto;">
+
+<!-- Contact -->
+  <section id="Contact" style="background-color: rgb(0, 0, 0, 0.0);height: 20rem;">
+    <div class="container">
+      <h2 class="text-lg-start text-center px-3">Contact</h2>
+
+      <div class="container">
+        <div class="d-flex flex-column align-items-center">
+          <p class="px-3"> Un projet, une idée ? Discutons-en ! </p>
+        
+          <a class="btn" href="mailto:baptiste.leblanc4@gmail.com"><button type="button" class="btn btn-light">Contactez moi</button></a>
+        </div>
+      </div>
+
+    
+  </section>
+    
+  </body>
+</html>
